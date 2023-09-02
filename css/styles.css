@@ -184,7 +184,7 @@ button {
   |============================
 */
 .header {
-        border-bottom: 1px solid var(--cornflower)
+        border-bottom: 1px solid var(--cornflower);
         box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
@@ -236,13 +236,14 @@ align-items: center;
         align-items: center;
         gap: 40px;
         /*padding: 24px 0;*/
-        color: var(--ocean);
-        transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        
 
 
 }
 
 .header-nav-list-item {
+       /* color: var(--ocean);
+                transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);*/
         
         /*padding: 24px 0; */
 }
@@ -254,11 +255,14 @@ align-items: center;
 
         /*padding-right: 76px;*/
 
-        color: var(--navyblue);
+       /* color: var(--navyblue);*/
+color: var(--ocean);
                 font-size: 16px;
                 font-weight: 500;
                 line-height: 1.5;
                 letter-spacing: 0.02em;
+
+                transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .header-nav-list-item-link::after {
