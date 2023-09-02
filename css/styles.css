@@ -456,12 +456,12 @@ background-color: ;*/
 
 .skill-list-svg {
 
-       display: inline-flex;
+      /* display: inline-flex;
                 align-items: center;
-                justify-content: center;
+                justify-content: center;*/
         
-                width: 64;
-                height: 64;
+                width: 64px;
+                height: 64px;
                 padding-top: 24px;
                 margin-bottom: 24px;
 
