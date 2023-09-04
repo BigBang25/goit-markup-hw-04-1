@@ -664,33 +664,46 @@ display: flex;
         
         
 
-.cust-list-svg {
+.cust-list-item {
         /*display: inline-flex;
         width: 168px;
                 height: 88px;
                 border-radius: 4px;
                 border: 1px solid var(--light-slate);*/
         /*padding: 16px 32px;*/
-display: inline-flex;
+/*display: inline-flex;
         align-items: center;
         justify-content: center;
-        width: 168px;
+        width: 168px;*/
         height: 88px;
+        width: calc((100% - 120px) / 6);
         /*padding: 16px 32px;*/
+        /*border-radius: 4px;
+        border: 1px solid var(--light-slate);
+        cursor: pointer;*/
+}
+
+.cust-link {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: var(--light-slate);
+        width: 100%;
+        height: 100%;
         border-radius: 4px;
         border: 1px solid var(--light-slate);
-        cursor: pointer;
 
 }
-.cust-list-svg:focus, 
-.cust-list-svg:hover,
- {
-border: 1px solid var(--ocean);
+.cust-link:focus, 
+.cust-link:hover {
+/*border: 1px solid var(--ocean);*/
+border-color: var(--ocean);
+color: var(--ocean);
 }
 
 .cuctom-svg {
 
-        fill: var(--light-slate);
+        /*fill: var(--light-slate);*/
       /*  display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -699,6 +712,11 @@ border: 1px solid var(--ocean);
                 border-radius: 4px;
                 border: 1px solid var(--light-slate);*/
 /*padding: 16px 32px;*/
+width: 104;
+height: 56;
+fill: currentColor;
+
+
 }
 
 .cuctom-svg:focus {
