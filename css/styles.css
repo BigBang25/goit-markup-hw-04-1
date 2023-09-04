@@ -1063,6 +1063,12 @@ border-top: none;
 .main-tmbl-list-item:focus .tmbl-overlay-text {
         transform: translateY(0);
 }
+.tmbl-link-img:hover .tmbl-overlay-text {
+        transform: translateY(0%)
+}
+.tmbl-link-img:focus .tmbl-overlay-text {
+        transform: translateY(0%)
+}
 
 .main-tmbl-list-item-title {
         color: var(--navyblue);
